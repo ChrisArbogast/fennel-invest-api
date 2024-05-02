@@ -25,7 +25,7 @@ fennel.login(
 ```
 
 ## Usage: Login to Fennel
-No need to add wait for 2fa, just enter the code in the command line when requested, and it will save credentials into the directory.
+Wait for 2FA is needed in some applications - when simply using a CLI interface, you are prompted to enter the code, but for other use cases it may be necessary.
 ```python
 fennel.login(
     email="your-email@email.com",
